@@ -97,7 +97,8 @@ header {
 
 .socialiAnchors,
 .floatAnchors,
-.floatAnchors2 {
+.floatAnchors2,
+.authorName  {
   text-decoration: none;
   color: black;
 }
@@ -142,14 +143,6 @@ header {
   text-align: left;
   font-size: 10px;
   color: grey;
-}
-
-/* AUTHOR SOCIAL CONTACT */
-.authorName {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
 }
 
 .grid {
@@ -430,7 +423,8 @@ iframe {
   width: 777px;
 }
 
-.border-top .articles {
+.border-top .articles,
+.lists-container ul {
   margin-right: 40px;
 }
 
@@ -515,10 +509,6 @@ iframe {
   padding-left: 20px;
   line-height: 20px;
   border-left: 1px solid grey;
-}
-
-.lists-container ul {
-  margin-right: 40px;
 }
 
 .listAnchorss {
